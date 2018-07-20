@@ -5,7 +5,7 @@ var newMap
 var markers = []
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('js/sw.js').then(function() {
+  navigator.serviceWorker.register('/sw.js').then(function() {
     console.log('worked');
   }).catch(function() {
     console.log('fail');
